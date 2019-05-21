@@ -14,6 +14,12 @@ Ubuntu:
 sudo apt install dzen2
 ```
 
+Dorodzen is best with Terminus font:
+
+```
+sudo apt install xfonts-terminus
+```
+
 ## Usage
 
 Basic usage is here:
