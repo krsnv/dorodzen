@@ -3,6 +3,8 @@
 Pomodoro Timer running with Dzen2. Best timer for tiling window managers.
 Forked from and inspired by Pomodzen: https://github.com/wrl/pomodzen
 
+![Dorodzen screenshot](https://raw.githubusercontent.com/krsnv/dorodzen/master/screenshot.gif)
+
 ## Installation
 
 Dorodzen uses Dzen2 for drawing timer progress bar.
