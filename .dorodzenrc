@@ -1,0 +1,25 @@
+# Dorodzen user configuration file
+
+# Theme: background and foreground colors
+# bg_color = "#000"
+# fg_color = "#5179A9"
+
+# Font type and size
+# font = "Terminus (TTF)"
+# font_size = 9
+
+# Command which will be executed when timer ends
+# command = ""
+
+# Audio notification file
+# alarm_audio = "~/.dorodzen/alarm.mp3"
+
+# Timer geometry: change for your needs
+# width = 265
+# height = 40
+
+# Default is 25 minutes
+# pomodoro_len = 25
+
+# Debug mode
+# debug = 0
