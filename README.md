@@ -5,6 +5,8 @@ Forked from and inspired by Pomodzen: https://github.com/wrl/pomodzen
 
 ![Dorodzen screenshot](https://raw.githubusercontent.com/krsnv/dorodzen/master/screenshot.gif)
 
+![Dorodzen animated preview](https://raw.githubusercontent.com/krsnv/dorodzen/master/live-preview.gif)
+
 ## Installation
 
 Dorodzen uses Dzen2 for drawing timer progress bar.
