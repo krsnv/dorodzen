@@ -40,11 +40,14 @@ bg = "#000"                # Background
 fg = "#5179A9"             # Foreground
 font = "Terminus (TTF)-9"  # Font (for timer digits)
 
-width = 265  # Progress bar width
-height = 40  # Prgoress bar height
+width = "200"  # Progress bar width
+height = "10"  # Prgoress bar height
 
-pomodoro_length = (60) * 25  # Pomodoro lenght, in seconds
-done_cmd = ""                # Default action after timer ends
+pos_x = "300"  # Position by x-coord
+pos_y = "4"    # Position by y-coord
+
+pomodoro_length = 60 * 25  # Pomodoro lenght, in seconds
+done_cmd = ""              # Default action after timer ends
 max_offset = 220
 
 dzen_cmd = [
@@ -55,10 +58,10 @@ dzen_cmd = [
     "-bg", bg,
     "-fg", fg,
     "-ta", "l",
-    "-h", 10,
-    "-w", 200,
-    "-y", "4",
-    "-x", "300"]
+    "-h", height,
+    "-w", width,
+    "-y", pos_y,
+    "-x", pos_x]
 
 dzen_ctrl = """^p({offset}){m:02.0f}:{s:02.0f}^p(+5)^r(500x40)
 """
