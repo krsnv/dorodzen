@@ -24,7 +24,9 @@ sudo apt install xfonts-terminus
 
 ## Usage
 
-Basic usage is here:
+### Basics
+
+Simple example of usage is here:
 
 ```
 python dorodzen.py
@@ -53,3 +55,11 @@ And anywhere from terminal:
 ```
 dorodzen
 ```
+
+Or using your dmenu.
+
+### Notifications
+
+You can add your voice record or music, or, maybe, alarm sound using command flag. It will be running after timer ends.
+
+Also, you can add any kind of notification. 
